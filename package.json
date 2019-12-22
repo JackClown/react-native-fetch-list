@@ -1,6 +1,6 @@
 {
   "name": "react-native-fetch-list",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,13 @@
   "keywords": [
     "react-native",
     "fetch",
-    "list"
+    "list",
+    "FlatList"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JackClown/react-native-fetch-list.git"
+  },
   "author": "Shengjie Lu",
   "license": "MIT",
   "peerDependencies": {
