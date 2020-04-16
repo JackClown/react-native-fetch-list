@@ -18,7 +18,7 @@ interface State<T> {
   loadMore: number;
 }
 
-interface ListProps<T> extends Omit<FlatListProps<T>, "data"> {
+export interface ListProps<T> extends Omit<FlatListProps<T>, "data"> {
   fetch: (params: { page: number; limit: number }) => Promise<T[]>;
   limit: number;
   filter?: (item: T) => boolean;
